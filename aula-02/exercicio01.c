@@ -28,28 +28,16 @@ int main () {
     media = (nota01 + nota02) / 2;
 
     // Aprovado com conceito A
-    if (media >= 9)
-    {
-        printf("O aluno foi aprovado com conceito A e média %.1f.", media);
-    }
+    if (media >= 9) printf("O aluno foi aprovado com conceito A e média %.1f.", media);
 
     // Aprovado com conceito B
-    if (media < 9 && media >= 8)
-    {
-        printf("O aluno foi aprovado com conceito B e média %.1f.", media);
-    }
+    if (media < 9 && media >= 8) printf("O aluno foi aprovado com conceito B e média %.1f.", media);
     
     // Aprovado com conceito C
-    if (media < 8 && media >= 6)
-    {
-        printf("O aluno foi aprovado com conceito C e média %.1f.", media);
-    }
+    if (media < 8 && media >= 6) printf("O aluno foi aprovado com conceito C e média %.1f.", media);
     
     // Reprovado com conceito D
-    if (media < 6)
-    {
-        printf("O aluno foi reprovado com conceito D e média %.1f.", media);
-    }
+    if (media < 6) printf("O aluno foi reprovado com conceito D e média %.1f.", media);
     
     return 0;
 };
