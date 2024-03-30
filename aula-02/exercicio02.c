@@ -16,22 +16,13 @@ int main () {
     scanf("%d", &valor02);
 
     // Imprime caso o Valor 01 seja menor do que o valor 02
-    if (valor01 < valor02)
-    {
-    printf("%d, %d", valor01, valor02);
-    }
+    if (valor01 < valor02) printf("%d, %d", valor01, valor02);
 
     // Imprime caso o Valor 01 seja maior do que o valor 02
-    if (valor01 > valor02)
-    {
-    printf("%d, %d", valor02, valor01);
-    }
+    if (valor01 > valor02) printf("%d, %d", valor02, valor01);
 
     // Imprime caso o Valor 01 seja igual ao valor 02
-    if (valor01 == valor02)
-    {
-    printf("%d, %d", valor01, valor02);
-    }
+    if (valor01 == valor02) printf("%d, %d", valor01, valor02);
 
     return 0;
 }
