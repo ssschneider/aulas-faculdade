@@ -1,12 +1,6 @@
 /*
 
-EXEMPLO
-while (louça suja existir na pia) 
-{
-    colocar sabão na esponja
-    pegar louça da pia
-    lavar
-    secar
+Um programa em C para contar de 0 a 9
 }
 
 */

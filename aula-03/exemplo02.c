@@ -1,3 +1,9 @@
+/*
+
+Um programa em C que imprime os números pares de 0 a 100
+
+*/
+
 #include <stdio.h>
 
 int main () {
